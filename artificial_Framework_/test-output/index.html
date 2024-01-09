@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\adars\AppData\Local\Temp\testng-eclipse--1440180459\testng-customsuite.xml</span>
+                    <span>C:\Users\adars\AppData\Local\Temp\testng-eclipse-320546687\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,11 +129,11 @@
                   <a name="analyser">
                   </a> <!-- analyser -->
                   <span class="method-name">analyser</span>
-                  <div class="stack-trace">java.lang.ClassCastException: class PropertyFileUtility.RetryAnalyserImplementation cannot be cast to class org.testng.IRetryAnalyzer (PropertyFileUtility.RetryAnalyserImplementation and org.testng.IRetryAnalyzer are in unnamed module of loader &apos;app&apos;)
-	at org.testng.internal.BaseTestMethod.computeRetryAnalyzerInstanceToUse(BaseTestMethod.java:843)
-	at org.testng.internal.BaseTestMethod.getRetryAnalyzerConsideringMethodParameters(BaseTestMethod.java:817)
-	at org.testng.internal.BaseTestMethod.getRetryAnalyzer(BaseTestMethod.java:681)
-	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:549)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
+	The type RetryAnalyserImplementation must implement the inherited abstract method IRetryAnalyzer.retry(ITestResult)
+
+	at PropertyFileUtility.RetryAnalyserImplementation.retry(RetryAnalyserImplementation.java:6)
+	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:554)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:726)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
@@ -166,7 +166,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\adars\AppData\Local\Temp\testng-eclipse--1440180459\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\adars\AppData\Local\Temp\testng-eclipse-320546687\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -219,12 +219,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'analyser')
 data.setCell(0, 2, 'practice.RetryAnalysePractice')
-data.setCell(0, 3, 26);
+data.setCell(0, 3, 30);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 ms</span>
+              <span class="suite-total-time">Total running time: 30 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->

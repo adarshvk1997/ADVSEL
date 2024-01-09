@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 04 14:25:17 IST 2024</td>
+<td>Started on:</td><td>Fri Jan 05 18:18:51 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (57 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (64 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,11 +77,11 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='practice.RetryAnalysePractice.analyser()'><b>analyser</b><br>Test class: practice.RetryAnalysePractice</td>
-<td><div><pre>java.lang.ClassCastException: class PropertyFileUtility.RetryAnalyserImplementation cannot be cast to class org.testng.IRetryAnalyzer (PropertyFileUtility.RetryAnalyserImplementation and org.testng.IRetryAnalyzer are in unnamed module of loader &apos;app&apos;)
-	at org.testng.internal.BaseTestMethod.computeRetryAnalyzerInstanceToUse(BaseTestMethod.java:843)
-	at org.testng.internal.BaseTestMethod.getRetryAnalyzerConsideringMethodParameters(BaseTestMethod.java:817)
-	at org.testng.internal.BaseTestMethod.getRetryAnalyzer(BaseTestMethod.java:681)
-	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:549)
+<td><div><pre>java.lang.Error: Unresolved compilation problem: 
+	The type RetryAnalyserImplementation must implement the inherited abstract method IRetryAnalyzer.retry(ITestResult)
+
+	at PropertyFileUtility.RetryAnalyserImplementation.retry(RetryAnalyserImplementation.java:6)
+	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:554)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:726)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
@@ -105,12 +105,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1593458942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1593458942'><pre>java.lang.ClassCastException: class PropertyFileUtility.RetryAnalyserImplementation cannot be cast to class org.testng.IRetryAnalyzer (PropertyFileUtility.RetryAnalyserImplementation and org.testng.IRetryAnalyzer are in unnamed module of loader &apos;app&apos;)
-	at org.testng.internal.BaseTestMethod.computeRetryAnalyzerInstanceToUse(BaseTestMethod.java:843)
-	at org.testng.internal.BaseTestMethod.getRetryAnalyzerConsideringMethodParameters(BaseTestMethod.java:817)
-	at org.testng.internal.BaseTestMethod.getRetryAnalyzer(BaseTestMethod.java:681)
-	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:549)
+</pre></div><a href='#' onClick='toggleBox("stack-trace757708014", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace757708014'><pre>java.lang.Error: Unresolved compilation problem: 
+	The type RetryAnalyserImplementation must implement the inherited abstract method IRetryAnalyzer.retry(ITestResult)
+
+	at PropertyFileUtility.RetryAnalyserImplementation.retry(RetryAnalyserImplementation.java:6)
+	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:554)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:726)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)

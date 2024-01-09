@@ -2,22 +2,24 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-04T14:25:17 IST" name="Default suite" finished-at="2024-01-04T14:25:17 IST" duration-ms="57">
+  <suite started-at="2024-01-05T18:18:51 IST" name="Default suite" finished-at="2024-01-05T18:18:51 IST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2024-01-04T14:25:17 IST" name="Default test" finished-at="2024-01-04T14:25:17 IST" duration-ms="57">
+    <test started-at="2024-01-05T18:18:51 IST" name="Default test" finished-at="2024-01-05T18:18:51 IST" duration-ms="64">
       <class name="practice.RetryAnalysePractice">
-        <test-method signature="analyser()[pri:0, instance:practice.RetryAnalysePractice@f09733f]" started-at="2024-01-04T14:25:17 IST" name="analyser" finished-at="2024-01-04T14:25:17 IST" duration-ms="26" status="FAIL">
-          <exception class="java.lang.ClassCastException">
+        <test-method signature="analyser()[pri:0, instance:practice.RetryAnalysePractice@f09733f]" started-at="2024-01-05T18:18:51 IST" name="analyser" finished-at="2024-01-05T18:18:51 IST" duration-ms="30" status="FAIL">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[class PropertyFileUtility.RetryAnalyserImplementation cannot be cast to class org.testng.IRetryAnalyzer (PropertyFileUtility.RetryAnalyserImplementation and org.testng.IRetryAnalyzer are in unnamed module of loader 'app')]]>
+              <![CDATA[Unresolved compilation problem: 
+The type RetryAnalyserImplementation must implement the inherited abstract method IRetryAnalyzer.retry(ITestResult)
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: class PropertyFileUtility.RetryAnalyserImplementation cannot be cast to class org.testng.IRetryAnalyzer (PropertyFileUtility.RetryAnalyserImplementation and org.testng.IRetryAnalyzer are in unnamed module of loader 'app')
-at org.testng.internal.BaseTestMethod.computeRetryAnalyzerInstanceToUse(BaseTestMethod.java:843)
-at org.testng.internal.BaseTestMethod.getRetryAnalyzerConsideringMethodParameters(BaseTestMethod.java:817)
-at org.testng.internal.BaseTestMethod.getRetryAnalyzer(BaseTestMethod.java:681)
-at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:549)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The type RetryAnalyserImplementation must implement the inherited abstract method IRetryAnalyzer.retry(ITestResult)
+
+at PropertyFileUtility.RetryAnalyserImplementation.retry(RetryAnalyserImplementation.java:6)
+at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:554)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:726)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
@@ -43,7 +45,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.ClassCastException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- analyser -->

@@ -18,6 +18,7 @@ import ObjectRepository.LoginPage;
 
 
 public class BaseClass {
+	public static WebDriver sdriver;
 	public ExcelFileUtility eUtil = new ExcelFileUtility();
 	public Javautility jUtil= new Javautility();
 	public SaleniumUtility sUtil= new SaleniumUtility();

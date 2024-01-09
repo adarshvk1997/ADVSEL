@@ -10,6 +10,10 @@ import java.io.FileNotFoundException;
  * 
  */
 public class PropertyFileUtility {
+public class ListenersImplementation {
+
+	}
+
 /**
  * This method will read data from Property file and return the value to the caller
  * @param key

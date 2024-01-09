@@ -19,6 +19,12 @@ public class RetryAnalyserImplementation implements IRetryAnalyzer {
 	return false;//stop
 	}
 
+	@Override
+	public boolean retry(ITestResult result) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 	
 	}
 	
